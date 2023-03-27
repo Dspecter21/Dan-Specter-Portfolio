@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Permanent Marker";
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/33/cb/89/33cb891716493df526fbbe7c329ebbe2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+    /* background-color: white; */
+    color: black;
+    /* border: 1px solid black; */
+
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    padding: 50px;
+}
+
+#about-me {
+    align-items: center;
+    justify-content: center;
+}
+
+#my-experience {
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin: 50px 0px 0px 34%;
+    padding: 15px;
+
+}
+
+.shortcut {
+    padding: 20px;
+    border: 15px;
+    margin: 10px;
+    color: black;
+    border-radius: 30px;
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+
+}
+
+.shortcut:hover {
+    background-color: black;
+    color: white;
+}
+
+#dan-image {
+
+    width: 600px;
+    /* height: 400px; */
+    clip-path: circle(250px at center);
+}
+
+#contact-me {
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin: 50px 0px 0px 20%;
+    padding: 15px;
+
+}
+
+#portfolio {
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin: 50px 0px 0px 10%;
+    padding: 15px;
+}
